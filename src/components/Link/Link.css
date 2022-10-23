@@ -1,11 +1,14 @@
 .link {
     width: 100%;
     margin: 1rem 0;
+    border-radius: 5px;
+    background: #EAECF0;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
 
-.link-btn {
-    width: 100%;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 0;
+.link:hover {
+    background: #d4d7dc;
 }

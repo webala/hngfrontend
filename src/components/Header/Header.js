@@ -10,8 +10,9 @@ function Header() {
                 <TiArrowForwardOutline className='nav-button'/>
             </div>
         </div>
-        <img className='dp' src={dp} />
-        <p className='header-text'>Daniel Webala</p>
+        <img className='dp' id='profile__img' src={dp} />
+        <p id='twitter' className='header-text'>Webbie1001</p>
+        <p id='slack' className='header-text'>Daniel Webala</p>
     </div>
   )
 }

@@ -1,12 +1,10 @@
 import './Link.css'
 
-function Link({url, name}) {
+function Link({url, name, id}) {
     console.log('link: ', name)
   return (
-    <a href={url} target='blank' className="link">
-        <button className="link-btn">
-            <p className="link-text">{name}</p>
-        </button>
+    <a href={url} target='blank' className="link" id={id}>
+      <p className="link-text">{name}</p>    
     </a>
   )
 }
