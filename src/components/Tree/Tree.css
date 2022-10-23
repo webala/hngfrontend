@@ -1,0 +1,7 @@
+.tree {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+}
