@@ -1,7 +1,12 @@
 .tree {
-    padding: 10px 20px;
     display: flex;
     flex-direction: column;
     width: 90%;
     align-items: center;
+}
+
+@media screen and (min-width: 600px){
+    .tree {
+        width: 80%;
+    }
 }
