@@ -5,7 +5,8 @@ function Tree() {
     const links = [
         {
             name: 'Twitter Link',
-            url: ''
+            url: 'https://twitter.com/Webbie1001',
+            id: 'twitter__link'
         },
         {
             name: 'Zuri Team',
@@ -35,9 +36,9 @@ function Tree() {
     ]
   return (
     <div className="tree">
-     {links.map((link) => {
+     {links.map((link, index) => {
         return (
-            <Link url={link.url} name={link.name} id={link.id}/>
+            <Link key={index} url={link.url} name={link.name} id={link.id}/>
         )
      })}
     </div>

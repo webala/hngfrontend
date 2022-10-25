@@ -1,14 +1,36 @@
 .link {
     width: 100%;
     margin: 1rem 0;
-    border-radius: 5px;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
     background: #EAECF0;
     color: black;
     text-decoration: none;
     display: flex;
     justify-content: center;
+    align-items: center;
+    /* padding: 24px 32px; */
+    transition: background .3s ease-in;
 }
 
 .link:hover {
     background: #d4d7dc;
+}
+
+.link-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #101828;
+}
+
+@media screen and (min-width: 600px) {
+    .link {
+        /* padding: 24px 32px; */
+    }
+
+    .link-text {
+        font-size: 18px;
+        line-height: 28px;
+    }
 }

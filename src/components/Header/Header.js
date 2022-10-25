@@ -7,10 +7,10 @@ function Header() {
     <div className="header">
         <div className='nav'>
             <div className='nav-button'>
-                <TiArrowForwardOutline className='nav-button'/>
+                <TiArrowForwardOutline />
             </div>
         </div>
-        <img className='dp' id='profile__img' src={dp} />
+        <img className='dp' id='profile__img' src={dp} alt='profile'/>
         <p id='twitter' className='header-text'>Webbie1001</p>
         <p id='slack' className='header-text'>Daniel Webala</p>
     </div>
