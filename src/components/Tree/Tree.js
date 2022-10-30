@@ -6,39 +6,45 @@ function Tree() {
         {
             name: 'Twitter Link',
             url: 'https://twitter.com/Webbie1001',
-            id: 'twitter__link'
+            id: 'twitter__link',
+            subText: ''
         },
         {
             name: 'Zuri Team',
             url: 'https://training.zuri.team/',
-            id: 'btn__zuri'
+            id: 'btn__zuri',
+            subText: 'Join The Zuri Team'
         },
         {
             name: 'Zuri Books',
             url: 'https://books.zuri.team/',
-            id: 'books'
+            id: 'books',
+            subText: 'Get the Best Design And Coding Books'
         },
         {
-            name: 'Python Books',
-            url: 'https://books.zuri.team/python-for-beginners?ref_id=<yourslackname>',
-            id: 'book__python'
+            name: 'Python For Beginners',
+            url: 'https://books.zuri.team/python-for-beginners?ref_id=webala',
+            id: 'book__python',
+            subText: 'Get started with python'
         },
         {
-            name: 'Background Check for Coders',
+            name: 'Coders Background Check',
             url: 'https://background.zuri.team/',
-            id: 'pitch'
+            id: 'pitch',
+            subText: 'We do background checks for coders'
         },
         {
             name: 'Design Book',
             url: 'https://books.zuri.team/design-rules',
-            id: 'book__design'
+            id: 'book__design',
+            subText: 'Get our free design book'
         },
     ]
   return (
     <div className="tree">
      {links.map((link, index) => {
         return (
-            <Link key={index} url={link.url} name={link.name} id={link.id}/>
+            <Link key={index} url={link.url} name={link.name} id={link.id} subText={link.subText}/>
         )
      })}
     </div>

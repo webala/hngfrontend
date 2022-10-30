@@ -1,4 +1,5 @@
 import './Footer.css'
+import IngForGood from '../../Assets/ingressive-for-good.webp'
 
 
 function Footer() {
@@ -6,7 +7,7 @@ function Footer() {
     <div className='footer'>
         <h1 className='title'>Zuri <span>.</span> Internship</h1>
         <p className='small'>HNG 9 Internship Frontend Task</p>
-        <p>Ingressive for good</p>
+        <img className='footer-img' src={IngForGood} alt='ingressive-for-good' />
     </div>
   )
 }

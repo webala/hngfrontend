@@ -7,9 +7,9 @@
     color: black;
     text-decoration: none;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    /* padding: 24px 32px; */
+    padding: 14px 0;
     transition: background .3s ease-in;
 }
 
@@ -24,11 +24,11 @@
     color: #101828;
 }
 
+.sub-text {
+    opacity: .7;
+}
 @media screen and (min-width: 600px) {
-    .link {
-        /* padding: 24px 32px; */
-    }
-
+   
     .link-text {
         font-size: 18px;
         line-height: 28px;
