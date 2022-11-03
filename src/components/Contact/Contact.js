@@ -3,14 +3,15 @@ import Footer from '../Footer/Footer'
 
 function Contact() {
   return (
-    <div className='py-16 px-5 flex flex-col gap-12 items-start'>
+    <div className='flex flex-col sm:items-center border border-red-400'>
+    <div className='py-16 px-5 sm:py-24 border border-blue-500 flex flex-col gap-12 items-start'>
         <div className='flex flex-col items-start'>
             <h1 className='text-3xl font-bold'>Contact Me</h1>
             <p className='opacity-75 mt-5'>Hi there, contact me to ask me about anything you have in mind</p>
         </div>
 
-        <form>
-            <div className='flex flex-col'>
+        <form className='sm:w-full'>
+            <div className='flex flex-col sm:flex-row sm:justify-between'>
                 <div className='flex flex-col items-start mb-10'>
                     <label>First name</label>
                     <input className='border p-2 border-gray-400 rounded-md h-10 w-full' id='first_name' placeholder='Enter your first namem'/>
@@ -36,7 +37,9 @@ function Contact() {
                 <button className='w-full text-white rounded-md bg-blue-600 h-12' id='btn__submit' type='submit'>Send message</button>
             </div>
         </form>
-        <Footer />
+        
+    </div>
+    <Footer />
     </div>
   )
 }
