@@ -12,7 +12,7 @@ function Header() {
         </div>
         <img className='dp' id='profile__img' src={dp} alt='profile'/>
         <p id='twitter' className='header-text'>Webbie1001</p>
-        <p id='slack' className='header-text'>Daniel Webala</p>
+        <p id='slack' className='header-text'>webala</p>
     </div>
   )
 }
