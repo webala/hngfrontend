@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/hngfrontend/static/css/main.1e0af23b.css",
+    "main.js": "/hngfrontend/static/js/main.f3575f72.js",
+    "static/js/787.55f350d7.chunk.js": "/hngfrontend/static/js/787.55f350d7.chunk.js",
+    "static/media/dp.jpg": "/hngfrontend/static/media/dp.a8eca2746e27709a6eb8.jpg",
+    "static/media/ingressive-for-good.webp": "/hngfrontend/static/media/ingressive-for-good.8706f78c4ed0100afbaf.webp",
+    "index.html": "/hngfrontend/index.html",
+    "main.1e0af23b.css.map": "/hngfrontend/static/css/main.1e0af23b.css.map",
+    "main.f3575f72.js.map": "/hngfrontend/static/js/main.f3575f72.js.map",
+    "787.55f350d7.chunk.js.map": "/hngfrontend/static/js/787.55f350d7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e0af23b.css",
+    "static/js/main.f3575f72.js"
+  ]
+}
