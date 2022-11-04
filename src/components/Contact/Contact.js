@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../Footer/Footer'
 import {useState} from 'react'
 
+
 function Contact() {
 
     const [message, setMessage] = useState()
@@ -53,7 +54,7 @@ function Contact() {
                 {(submit && !message) && <p className='text-red-500'>Please enter a message</p>}
             </div>
             <div className='flex'>
-                <input type='checkbox' />
+                <input type='checkbox' className='h-5 w-5 rounded checkbox'/>
                 <p className='ml-2'>You agree to providing your data to Daniel Webala who may contact you</p>
             </div>
             <div className='flex justify-center px-5 mt-10'>
