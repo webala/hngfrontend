@@ -18,7 +18,9 @@ const router = createBrowserRouter([
     path: '/contact',
     element: <Contact />
   },
-])
+],  {
+  basename: '/hngfrontend'
+})
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
